@@ -1339,3 +1339,333 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2025.02.12-15.52.53:062][ 74]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.02.12-15.52.53:171][ 87]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-G9JzXmZz6U-D0hYiqOAokg-R7R-UXZ-mk-3jLAxxZpt7A]
 [2025.02.12-15.52.53:223][ 94]LogSourceControl: Uncontrolled asset enumeration finished in 0.858597 seconds (Found 7398 uncontrolled assets)
+[2025.02.12-15.54.27:929][423]LogDerivedDataCache: C:/Users/keish/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.12-15.58.07:923][146]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 323.143677
+[2025.02.12-15.58.08:922][149]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-15.58.08:922][149]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 323.809448, Update Interval: 353.799866
+[2025.02.12-15.59.48:316][474]LogSlate: Took 0.010408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.12-15.59.56:150][665]LogStreaming: Display: FlushAsyncLoading(383): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.12-16.00.02:350][665]LogSlate: Window 'New Level' being destroyed
+[2025.02.12-16.00.02:364][665]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.02.12-16.00.02:393][665]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-16.00.02:394][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-16.00.02:394][665]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.02.12-16.00.02:423][665]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.12-16.00.02:482][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.02.12-16.00.02:506][665]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2025.02.12-16.00.02:506][665]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.02.12-16.00.02:530][665]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.02.12-16.00.02:543][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.02.12-16.00.02:544][665]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.02.12-16.00.02:544][665]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.266ms to complete.
+[2025.02.12-16.00.56:189][ 53]LogStreaming: Display: FlushAsyncLoading(386): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.12-16.00.56:435][ 54]LogChaosDD: Creating Chaos Debug Draw Scene for world World_0
+[2025.02.12-16.00.57:397][ 57]LogChaosDD: Creating Chaos Debug Draw Scene for world World_1
+[2025.02.12-16.01.05:085][110]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Quinn.ABP_Quinn
+[2025.02.12-16.01.05:085][110]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Quinn.ABP_Quinn
+[2025.02.12-16.01.05:088][110]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Temp/Untitled_1.Untitled_1:PersistentLevel.SkeletalMeshActor_0
+[2025.02.12-16.01.05:109][110]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Temp/Untitled_1.Untitled_1:PersistentLevel.SkeletalMeshActor_0
+[2025.02.12-16.01.08:269][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.02.12-16.01.08:272][149]LogEditorActor: Deleted 0 Actors (0.037 secs)
+[2025.02.12-16.01.08:297][149]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Quinn.ABP_Quinn
+[2025.02.12-16.01.08:297][149]LogActorFactory: Actor Factory attempting to spawn AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Quinn.ABP_Quinn
+[2025.02.12-16.01.08:306][149]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Temp/Untitled_1.Untitled_1:PersistentLevel.SkeletalMeshActor_1
+[2025.02.12-16.01.08:313][149]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Temp/Untitled_1.Untitled_1:PersistentLevel.SkeletalMeshActor_1
+[2025.02.12-16.01.10:329][168]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.12-16.01.10:351][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.12-16.01.10:374][168]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.02.12-16.01.10:374][168]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.02.12-16.01.10:376][168]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2025.02.12-16.01.10:382][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006473s)
+[2025.02.12-16.01.10:382][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006594s)
+[2025.02.12-16.01.10:395][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.02.12-16.01.10:396][168]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.02.12-16.01.10:401][168]LogPlayLevel: PIE: World Init took: (0.003881s)
+[2025.02.12-16.01.10:403][168]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.02.12-16.01.10:403][168]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.12-16.01.10:403][168]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.12-16.01.10:403][168]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.12-16.01.10:403][168]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.12-16.01.10:403][168]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.12-16.01.10:403][168]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.12-16.01.10:403][168]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.12-16.01.10:403][168]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.12-16.01.10:403][168]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.12-16.01.10:403][168]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.12-16.01.10:403][168]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.12-16.01.10:405][168]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.12-16.01.10:458][168]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2025.02.12-16.01.10:458][168]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.12-16.01.10:458][168]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.12-16.01.10:458][168]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.12-16.01.10:460][168]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.02.12-16.01.10:460][168]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.02.12-16.01.10:463][168]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.02.12-16.01.10:463][168]LogInit: FAudioDevice initialized with ID 2.
+[2025.02.12-16.01.10:463][168]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.02.12-16.01.10:463][168]LogAudio: Display: Audio Device (ID: 2) registered with world 'Untitled_1'.
+[2025.02.12-16.01.10:463][168]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.02.12-16.01.10:470][168]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.12-16.01.10:477][168]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2025.02.12-16.01.10
+[2025.02.12-16.01.10:478][168]LogWorld: Bringing up level for play took: 0.005759
+[2025.02.12-16.01.10:480][168]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2025.02.12-16.01.10:518][168]PIE: Server logged in
+[2025.02.12-16.01.10:519][168]PIE: Play in editor total start time 0.174 seconds.
+[2025.02.12-16.01.19:429][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-16.01.19:430][237]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2025.02.12-16.01.19:433][237]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-16.01.19:434][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-16.01.19:595][237]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.12-16.01.19:607][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-16.01.19:640][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-16.01.19:641][237]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.02.12-16.01.19:645][237]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.02.12-16.01.19:652][237]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.02.12-16.01.19:684][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.02.12-16.01.19:724][238]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2025.02.12-16.01.31:790][358]LogStreaming: Display: FlushAsyncLoading(387): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.12-16.01.32:482][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.Quinn_calf_l_anim (Required Memory Estimate: 2.80 MB)
+[2025.02.12-16.01.32:487][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.Quinn_calf_r_anim (Required Memory Estimate: 2.80 MB)
+[2025.02.12-16.01.32:499][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.Quinn_clavicle_l_anim (Required Memory Estimate: 2.35 MB)
+[2025.02.12-16.01.32:514][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.Quinn_clavicle_r_anim (Required Memory Estimate: 2.35 MB)
+[2025.02.12-16.01.32:514][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.Quinn_calf_l_anim, at AnimationSequence/1fb58284e95dc98903d95980509ebeafe8b05488
+[2025.02.12-16.01.32:516][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.Quinn_calf_r_anim, at AnimationSequence/8d77eedbc5bc865a73c963ae0494c57c91acaf0d
+[2025.02.12-16.01.32:524][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.Quinn_foot_l_anim (Required Memory Estimate: 1.45 MB)
+[2025.02.12-16.01.32:531][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.Quinn_clavicle_l_anim, at AnimationSequence/eb1f3645132c19c6f45501b2ca3c9f8f718c081d
+[2025.02.12-16.01.32:536][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.Quinn_foot_r_anim (Required Memory Estimate: 1.45 MB)
+[2025.02.12-16.01.32:543][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.Quinn_clavicle_r_anim, at AnimationSequence/4dcd365de0f93bc0c094c751bef04a34b3d44e1a
+[2025.02.12-16.01.32:545][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.Quinn_foot_l_anim, at AnimationSequence/49dcf63837ae8f0e33a27bcef11a767527a39b20
+[2025.02.12-16.01.32:548][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.Quinn_hand_l_anim (Required Memory Estimate: 1.90 MB)
+[2025.02.12-16.01.32:558][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.Quinn_foot_r_anim, at AnimationSequence/3c589734e79e4e99d4a5eef6cbd5f5a4c4796868
+[2025.02.12-16.01.32:563][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.Quinn_hand_r_anim (Required Memory Estimate: 1.90 MB)
+[2025.02.12-16.01.32:574][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.Quinn_hand_l_anim, at AnimationSequence/1319c50ce557b5dfded879a23133bdb4ae578fcc
+[2025.02.12-16.01.32:578][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.Quinn_lowerarm_l_anim (Required Memory Estimate: 4.61 MB)
+[2025.02.12-16.01.32:588][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.Quinn_hand_r_anim, at AnimationSequence/e0a14c4fcca154095db338afcd243aca2f0daa7a
+[2025.02.12-16.01.32:589][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.Quinn_lowerarm_r_anim (Required Memory Estimate: 4.61 MB)
+[2025.02.12-16.01.32:603][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.Quinn_thigh_l_anim (Required Memory Estimate: 6.41 MB)
+[2025.02.12-16.01.32:621][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.Quinn_thigh_r_anim (Required Memory Estimate: 6.41 MB)
+[2025.02.12-16.01.32:622][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.Quinn_lowerarm_l_anim, at AnimationSequence/361b1c12382886286f2c15e84e0d602725841af9
+[2025.02.12-16.01.32:635][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.Quinn_upperarm_l_anim (Required Memory Estimate: 5.51 MB)
+[2025.02.12-16.01.32:635][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.Quinn_lowerarm_r_anim, at AnimationSequence/cc2b1e6f452301a13abebf6c4a7eae6d43660a29
+[2025.02.12-16.01.32:663][358]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.Quinn_upperarm_r_anim (Required Memory Estimate: 5.51 MB)
+[2025.02.12-16.01.32:685][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.Quinn_thigh_r_anim, at AnimationSequence/7fc68fd196454c3471deb75402ae225556c50db9
+[2025.02.12-16.01.32:686][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.Quinn_thigh_l_anim, at AnimationSequence/0111d097422079b6a0998ed49447b61877c6c8e2
+[2025.02.12-16.01.32:693][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.Quinn_upperarm_l_anim, at AnimationSequence/c6aa84b1fb6b08c5ec00f3eadebc3fcfc16e3c35
+[2025.02.12-16.01.32:714][358]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.Quinn_upperarm_r_anim, at AnimationSequence/96f0ad002e8a0d6ae8ef4c7c223051d2ee49d14d
+[2025.02.12-16.01.32:720][358]LogSkeletalMesh: Building Skeletal Mesh SKM_Quinn...
+[2025.02.12-16.01.32:805][358]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Quinn) ...
+[2025.02.12-16.01.33:874][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.34:305][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.34:718][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.35:149][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.35:581][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.36:011][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.36:429][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.36:859][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.37:273][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.37:369][358]LogSkeletalMeshReduction: Reducing skeletal mesh for LOD 3 
+[2025.02.12-16.01.37:369][358]LogSkeletalMeshReduction: Reducing skeletal mesh for LOD 2 
+[2025.02.12-16.01.37:706][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.38:121][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.38:552][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.38:983][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.39:399][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.39:799][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.40:230][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.40:662][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.41:090][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.41:523][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.41:938][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.42:095][358]LogSkeletalMesh: Skeletal mesh [/Game/Characters/Mannequins/Meshes/SKM_Quinn.SKM_Quinn]: The derived data key is different after the build. Save the asset to avoid rebuilding it everytime the editor load it.
+[2025.02.12-16.01.42:120][358]LogSkeletalMesh: Built Skeletal Mesh [9.41s] /Game/Characters/Mannequins/Meshes/SKM_Quinn.SKM_Quinn
+[2025.02.12-16.01.42:128][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.02.12-16.01.42:158][359]LogChaosDD: Creating Chaos Debug Draw Scene for world World_2
+[2025.02.12-16.01.42:492][362]LogChaosDD: Creating Chaos Debug Draw Scene for world World_3
+[2025.02.12-16.01.52:320][454]LogShaderCompilers: Display: ================================================
+[2025.02.12-16.01.52:320][454]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.12-16.01.52:320][454]LogShaderCompilers: Display: Total job queries 1,336, among them cache hits 219 (16.39%), DDC hits 1,107 (82.86%), Duplicates 6 (0.45%)
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Tracking 1,111 distinct input hashes that result in 868 distinct outputs (78.13%)
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: RAM used: 564.68 KiB of 819.20 MiB budget. Usage: 0.07%
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Shaders Compiled: 4
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.07 s
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Job execution time: average 2.83 s, max 3.31 s
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Job life time (pending + execution): average 2.90 s, max 3.38
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Shader code size: average 7.56 KiB, min 6.688 KiB, max 8.91 KiB
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.38 s
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.07%
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Average processing rate: 1.18 jobs/sec
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Total thread time: 5.784 s
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Total thread preprocess time: 37.673 s
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Percentage time preprocessing: 651.34%
+[2025.02.12-16.01.52:321][454]LogShaderCompilers: Display: Effective parallelization: 1.71 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 1.94 sec, max 1.94 sec, min 1.94 sec)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 1.58 sec, max 1.58 sec, min 1.58 sec)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 33.56% of total time (compiled    1 times, average 1.94 sec, max 1.94 sec, min 1.94 sec)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display:                                                 FLumenCardPS - 27.29% of total time (compiled    1 times, average 1.58 sec, max 1.58 sec, min 1.58 sec)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.58% of total time (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display:                                                 FLumenCardVS - 19.58% of total time (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display:                                                  FHitProxyVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display: === Material stats ===
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display: Materials Translated:    135
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display: Material Total Translate Time: 0.19 s
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display: Material Translation Only: 0.09 s (48%)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.02.12-16.01.52:323][454]LogShaderCompilers: Display: ================================================
+[2025.02.12-16.02.56:364][393]LogSlate: Window 'Save Level As' being destroyed
+[2025.02.12-16.02.56:488][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.02.12-16.02.56:514][393]LogSavePackage: Moving output files for package: /Game/TestLevel
+[2025.02.12-16.02.56:514][393]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/TestLevelFB749EF14509AF4D9ABBDB99ECBBC8FA.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/TestLevel.umap'
+[2025.02.12-16.02.56:547][393]LogFileHelpers: Saving map 'TestLevel' took 0.171
+[2025.02.12-16.02.56:547][393]Cmd: MAP LOAD FILE="../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.02.12-16.02.56:564][393]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-16.02.56:564][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-16.02.56:577][393]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.12-16.02.56:578][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.02.12-16.02.56:580][393]LogStreaming: Display: FlushAsyncLoading(388): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.12-16.02.56:584][393]LogAudio: Display: Audio Device (ID: 1) registered with world 'TestLevel'.
+[2025.02.12-16.02.56:584][393]LogChaosDD: Creating Chaos Debug Draw Scene for world TestLevel
+[2025.02.12-16.02.56:608][393]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.02.12-16.02.56:621][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.02.12-16.02.56:628][393]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.02.12-16.02.56:629][393]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.07ms to complete.
+[2025.02.12-16.02.56:703][393]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.12-16.02.56:703][393]LogContentValidation: Enabled validators:
+[2025.02.12-16.02.56:704][393]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.12-16.02.56:704][393]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.12-16.02.56:704][393]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.12-16.02.56:704][393]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.12-16.02.56:704][393]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.12-16.02.56:704][393]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.12-16.02.56:705][393]AssetCheck: /Game/TestLevel Validating asset
+[2025.02.12-16.03.40:930][277]LogChaosDD: Creating Chaos Debug Draw Scene for world World_4
+[2025.02.12-16.03.49:603][365]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2025.02.12-16.03.49:603][365]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2025.02.12-16.03.49:616][365]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/TestLevel.TestLevel:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2025.02.12-16.03.49:622][365]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/TestLevel.TestLevel:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2025.02.12-16.03.52:334][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.02.12-16.03.52:337][399]LogEditorActor: Deleted 0 Actors (0.057 secs)
+[2025.02.12-16.03.52:351][399]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2025.02.12-16.03.52:351][399]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2025.02.12-16.03.52:361][399]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/TestLevel.TestLevel:PersistentLevel.BP_ThirdPersonCharacter_C_1
+[2025.02.12-16.03.52:367][399]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/TestLevel.TestLevel:PersistentLevel.BP_ThirdPersonCharacter_C_1
+[2025.02.12-16.03.56:555][430]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.12-16.03.56:571][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.12-16.03.56:571][430]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2025.02.12-16.03.56:583][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010823s)
+[2025.02.12-16.03.56:583][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.010932s)
+[2025.02.12-16.03.56:616][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.02.12-16.03.56:619][430]LogChaosDD: Creating Chaos Debug Draw Scene for world TestLevel
+[2025.02.12-16.03.56:623][430]LogPlayLevel: PIE: World Init took: (0.004457s)
+[2025.02.12-16.03.56:626][430]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.02.12-16.03.56:626][430]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.12-16.03.56:626][430]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.12-16.03.56:626][430]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.12-16.03.56:626][430]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.12-16.03.56:626][430]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.12-16.03.56:626][430]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.12-16.03.56:626][430]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.12-16.03.56:626][430]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.12-16.03.56:626][430]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.12-16.03.56:626][430]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.12-16.03.56:626][430]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.12-16.03.56:632][430]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.12-16.03.56:738][430]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2025.02.12-16.03.56:740][430]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.12-16.03.56:740][430]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.12-16.03.56:740][430]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.12-16.03.56:742][430]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.02.12-16.03.56:743][430]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.02.12-16.03.56:746][430]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.02.12-16.03.56:746][430]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.02.12-16.03.56:746][430]LogInit: FAudioDevice initialized with ID 3.
+[2025.02.12-16.03.56:746][430]LogAudio: Display: Audio Device (ID: 3) registered with world 'TestLevel'.
+[2025.02.12-16.03.56:747][430]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.02.12-16.03.56:761][430]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.12-16.03.56:768][430]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2025.02.12-16.03.56
+[2025.02.12-16.03.56:774][430]LogWorld: Bringing up level for play took: 0.011971
+[2025.02.12-16.03.56:777][430]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.02.12-16.03.56:784][430]PIE: Server logged in
+[2025.02.12-16.03.56:785][430]PIE: Play in editor total start time 0.213 seconds.
+[2025.02.12-16.04.04:506][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-16.04.04:506][488]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestLevel
+[2025.02.12-16.04.04:508][488]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-16.04.04:509][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-16.04.04:662][488]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.12-16.04.04:670][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-16.04.04:701][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-16.04.04:702][488]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.02.12-16.04.04:702][488]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.02.12-16.04.04:726][488]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.02.12-16.04.04:750][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.02.12-16.04.04:794][489]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.02.12-16.04.06:112][497]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 681.333557
+[2025.02.12-16.04.06:511][500]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-16.04.06:512][500]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 681.602783, Update Interval: 359.042328
+[2025.02.12-16.04.15:952][739]LogSlate: Window 'Open Level' being destroyed
+[2025.02.12-16.04.29:275][906]LogSlate: Window 'New Level' being destroyed
+[2025.02.12-16.05.50:703][535]Cmd: DELETE
+[2025.02.12-16.05.50:703][535]Cmd: ACTOR DELETE
+[2025.02.12-16.05.50:741][535]LogEditorActor: Deleted Actor: BP_ThirdPersonCharacter_C
+[2025.02.12-16.05.50:879][535]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2025.02.12-16.05.50:883][535]LogEditorActor: Deleted 1 Actors (0.162 secs)
+[2025.02.12-16.05.52:759][558]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.12-16.05.52:775][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.12-16.05.52:775][558]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2025.02.12-16.05.52:779][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004618s)
+[2025.02.12-16.05.52:779][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004734s)
+[2025.02.12-16.05.52:816][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2025.02.12-16.05.52:819][558]LogChaosDD: Creating Chaos Debug Draw Scene for world TestLevel
+[2025.02.12-16.05.52:823][558]LogPlayLevel: PIE: World Init took: (0.003829s)
+[2025.02.12-16.05.52:826][558]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.02.12-16.05.52:826][558]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.12-16.05.52:826][558]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.12-16.05.52:826][558]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.12-16.05.52:826][558]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.12-16.05.52:826][558]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.12-16.05.52:826][558]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.12-16.05.52:826][558]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.12-16.05.52:826][558]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.12-16.05.52:826][558]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.12-16.05.52:826][558]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.12-16.05.52:826][558]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.12-16.05.52:831][558]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.12-16.05.52:898][558]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2025.02.12-16.05.52:898][558]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.12-16.05.52:898][558]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.12-16.05.52:898][558]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.12-16.05.52:898][558]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.02.12-16.05.52:898][558]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.02.12-16.05.52:901][558]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.02.12-16.05.52:903][558]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.02.12-16.05.52:903][558]LogInit: FAudioDevice initialized with ID 4.
+[2025.02.12-16.05.52:903][558]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestLevel'.
+[2025.02.12-16.05.52:903][558]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.02.12-16.05.52:908][558]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.12-16.05.52:912][558]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2025.02.12-16.05.52
+[2025.02.12-16.05.52:912][558]LogWorld: Bringing up level for play took: 0.004325
+[2025.02.12-16.05.52:915][558]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.02.12-16.05.52:922][558]PIE: Server logged in
+[2025.02.12-16.05.52:923][558]PIE: Play in editor total start time 0.148 seconds.
+[2025.02.12-16.06.03:701][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-16.06.03:701][687]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestLevel
+[2025.02.12-16.06.03:701][687]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-16.06.03:702][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-16.06.03:821][687]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.12-16.06.03:831][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-16.06.03:888][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-16.06.03:889][687]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.02.12-16.06.03:889][687]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.02.12-16.06.03:893][687]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.02.12-16.06.03:920][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.02.12-16.06.03:965][688]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.02.12-16.06.15:314][823]LogNavigationPoint: PostEditMove Clear paths rebuilt
