@@ -6,7 +6,9 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/TestLevel.umap",
-				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_GrabObject.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Characters/Mannequins/Animations/ABP_Manny.uasset"
 			]
 		}
 	]
