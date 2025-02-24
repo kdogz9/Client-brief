@@ -7,13 +7,15 @@
 			"files": [
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/TestLevel.umap",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_GrabObject.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Characters/Mannequins/Animations/Quinn/Carrying.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_Object.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_Push.uasset",
-				"C:/Program Files/Epic Games/UE_5.5/Engine/Content/BasicShapes/BasicShapeMaterial.uasset"
+				"C:/Program Files/Epic Games/UE_5.5/Engine/Content/BasicShapes/BasicShapeMaterial.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_Death.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_Spawner.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_GrabObject.uasset"
 			]
 		}
 	]
