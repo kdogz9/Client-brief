@@ -1927,3 +1927,297 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.02-11.05.44:712][991]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Animations/Idle/Ideal_Anim_Auto1
 [2025.03.02-11.05.44:712][991]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Ideal_Anim_Auto1150FEC3C483F06A267CA06B86D744F95.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Autosaves/Game/Animations/Idle/Ideal_Anim_Auto1.uasset'
 [2025.03.02-11.05.44:713][991]LogFileHelpers: Auto-saving content packages took 1.108
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: ================================================
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: Total job queries 206, among them cache hits 18 (8.74%), DDC hits 127 (61.65%), Duplicates 1 (0.49%)
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: Tracking 187 distinct input hashes that result in 147 distinct outputs (78.61%)
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: RAM used: 122.92 KiB of 819.20 MiB budget. Usage: 0.01%
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: Shaders Compiled: 60
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: Jobs assigned 60, completed 60 (100%)
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: Average time worker was idle: 45.27 s
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.12 s
+[2025.03.02-11.06.43:830][291]LogShaderCompilers: Display: Job execution time: average 3.11 s, max 5.15 s
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Job life time (pending + execution): average 3.17 s, max 5.24
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Shader code size: average 8.383 KiB, min 4.133 KiB, max 10.98 KiB
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 27.01 s
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.18%
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Jobs were issued in 36 batches (only local compilation was used), average 1.67 jobs/batch
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Average processing rate: 2.22 jobs/sec
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Total thread time: 80.531 s
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Total thread preprocess time: 5.99 s
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Percentage time preprocessing: 7.44%
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Effective parallelization: 2.98 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    8 times, average 2.71 sec, max 2.90 sec, min 2.49 sec)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    4 times, average 2.39 sec, max 2.53 sec, min 2.32 sec)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    4 times, average 2.17 sec, max 2.26 sec, min 2.06 sec)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    8 times, average 1.25 sec, max 1.35 sec, min 1.17 sec)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 1.16 sec, max 1.33 sec, min 0.97 sec)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display:                                             FDebugViewModePS - 26.88% of total time (compiled    8 times, average 2.71 sec, max 2.90 sec, min 2.49 sec)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 12.43% of total time (compiled    8 times, average 1.25 sec, max 1.35 sec, min 1.17 sec)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 11.86% of total time (compiled    4 times, average 2.39 sec, max 2.53 sec, min 2.32 sec)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.48% of total time (compiled    8 times, average 1.16 sec, max 1.33 sec, min 0.97 sec)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 10.79% of total time (compiled    4 times, average 2.17 sec, max 2.26 sec, min 2.06 sec)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: === Material stats ===
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Materials Translated:    135
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Material Translation Only: 0.07 s (48%)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: Material Cache Hits: 21 (16%)
+[2025.03.02-11.06.43:831][291]LogShaderCompilers: Display: ================================================
+[2025.03.02-11.10.52:559][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 982.093506
+[2025.03.02-11.10.53:559][882]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.02-11.10.53:559][882]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 982.759766, Update Interval: 307.795044
+[2025.03.02-11.16.10:557][872]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1300.088745
+[2025.03.02-11.16.11:555][874]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.02-11.16.11:557][874]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1300.754150, Update Interval: 307.804199
+[2025.03.02-11.21.43:381][869]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1632.914062
+[2025.03.02-11.21.44:383][872]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.02-11.21.44:383][872]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1633.579590, Update Interval: 331.991333
+[2025.03.02-11.25.04:539][619]LogStreaming: Display: FlushAsyncLoading(372): 1 QueuedPackages, 0 AsyncPackages
+[2025.03.02-11.25.04:837][620]LogChaosDD: Creating Chaos Debug Draw Scene for world World_20
+[2025.03.02-11.25.04:934][621]LogChaosDD: Creating Chaos Debug Draw Scene for world World_21
+[2025.03.02-11.25.09:352][681]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny
+[2025.03.02-11.25.09:357][681]LogChaosDD: Creating Chaos Debug Draw Scene for world World_22
+[2025.03.02-11.25.09:565][681]LogChaosDD: Creating Chaos Debug Draw Scene for world World_23
+[2025.03.02-11.25.09:633][681]LogStreaming: Display: FlushAsyncLoading(373): 1 QueuedPackages, 0 AsyncPackages
+[2025.03.02-11.25.09:815][681]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.02-11.25.14:751][681]LogChaosDD: Creating Chaos Debug Draw Scene for world World_24
+[2025.03.02-11.25.15:375][681]LogChaosDD: Creating Chaos Debug Draw Scene for world World_25
+[2025.03.02-11.25.15:524][681]LogSlate: Took 0.011422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.03.02-11.28.01:953][277]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2011.485352
+[2025.03.02-11.28.02:956][280]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.02-11.28.02:956][280]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2012.154907, Update Interval: 306.573700
+[2025.03.02-11.33.55:756][338]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2365.285400
+[2025.03.02-11.33.56:759][341]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.02-11.33.56:759][341]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2365.951904, Update Interval: 349.216583
+[2025.03.02-11.36.05:655][756]LogSlate: Window 'ABP_Manny' being destroyed
+[2025.03.02-11.36.05:750][756]LogSlate: Window 'ABP_Manny' being destroyed
+[2025.03.02-11.36.05:796][756]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.36.05:796][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.36.05:845][756]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.36.05:845][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.36.06:005][756]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.36.06:005][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.36.06:104][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2025.03.02-11.36.07:851][762]LogChaosDD: Creating Chaos Debug Draw Scene for world World_26
+[2025.03.02-11.40.42:324][656]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2771.854248
+[2025.03.02-11.40.43:323][659]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.02-11.40.43:323][659]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2772.520264, Update Interval: 349.251373
+[2025.03.02-11.44.33:360][368]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.02-11.44.33:736][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2025.03.02-11.44.33:776][368]LogSavePackage: Moving output files for package: /Game/TestLevel
+[2025.03.02-11.44.33:778][368]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/TestLevelA34E4E114B6FDF71C175B5845AD067DE.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/TestLevel.umap'
+[2025.03.02-11.44.33:813][368]LogFileHelpers: Saving map 'TestLevel' took 0.168
+[2025.03.02-11.44.33:825][368]LogFileHelpers: InternalPromptForCheckoutAndSave took 465.024 ms (total: 2.08 sec)
+[2025.03.02-11.44.33:911][368]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.02-11.44.33:911][368]LogContentValidation: Enabled validators:
+[2025.03.02-11.44.33:911][368]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.02-11.44.33:911][368]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.02-11.44.33:911][368]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.02-11.44.33:911][368]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.02-11.44.33:911][368]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.02-11.44.33:911][368]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.02-11.44.33:911][368]AssetCheck: /Game/TestLevel Validating asset
+[2025.03.02-11.44.34:877][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.03.02-11.44.36:546][381]LogSlate: Window 'Save Content' being destroyed
+[2025.03.02-11.44.36:713][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.02-11.44.36:760][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Crouch_Walk/Crouch_Walk] ([1] browsable assets)...
+[2025.03.02-11.44.36:760][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Crouch_Walk/Crouch_Walk]
+[2025.03.02-11.44.37:091][381]LogSavePackage: Moving output files for package: /Game/Animations/Crouch_Walk/Crouch_Walk
+[2025.03.02-11.44.37:091][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Crouch_WalkD9EF3A914CBA352ABE6A67A65E5359F8.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Crouch_Walk/Crouch_Walk.uasset'
+[2025.03.02-11.44.37:097][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Crouch_Walk/Crouch_Walk_Anim] ([1] browsable assets)...
+[2025.03.02-11.44.37:097][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Crouch_Walk/Crouch_Walk_Anim]
+[2025.03.02-11.44.37:105][381]LogSavePackage: Moving output files for package: /Game/Animations/Crouch_Walk/Crouch_Walk_Anim
+[2025.03.02-11.44.37:105][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Crouch_Walk_Anim299A4A1F42D8EEEFC73539BA823BAF68.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Crouch_Walk/Crouch_Walk_Anim.uasset'
+[2025.03.02-11.44.37:109][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Crouch_Walk/Crouch_Walk_PhysicsAsset] ([1] browsable assets)...
+[2025.03.02-11.44.37:109][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Crouch_Walk/Crouch_Walk_PhysicsAsset]
+[2025.03.02-11.44.37:114][381]LogSavePackage: Moving output files for package: /Game/Animations/Crouch_Walk/Crouch_Walk_PhysicsAsset
+[2025.03.02-11.44.37:114][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Crouch_Walk_PhysicsAsset3A47208045CC9D9616F314A4A09AEAEE.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Crouch_Walk/Crouch_Walk_PhysicsAsset.uasset'
+[2025.03.02-11.44.37:117][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Crouch_Walk/Crouch_Walk_Skeleton] ([1] browsable assets)...
+[2025.03.02-11.44.37:117][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Crouch_Walk/Crouch_Walk_Skeleton]
+[2025.03.02-11.44.37:120][381]LogSavePackage: Moving output files for package: /Game/Animations/Crouch_Walk/Crouch_Walk_Skeleton
+[2025.03.02-11.44.37:120][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Crouch_Walk_Skeleton5089F78C45790BB2B97E449A2460F6A1.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Crouch_Walk/Crouch_Walk_Skeleton.uasset'
+[2025.03.02-11.44.37:124][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Idle/Ideal] ([1] browsable assets)...
+[2025.03.02-11.44.37:124][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Idle/Ideal]
+[2025.03.02-11.44.37:456][381]LogSavePackage: Moving output files for package: /Game/Animations/Idle/Ideal
+[2025.03.02-11.44.37:456][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/IdealC9625086418008A6874892B37E9E24ED.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Idle/Ideal.uasset'
+[2025.03.02-11.44.37:466][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Idle/Ideal_Anim] ([1] browsable assets)...
+[2025.03.02-11.44.37:466][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Idle/Ideal_Anim]
+[2025.03.02-11.44.37:475][381]LogSavePackage: Moving output files for package: /Game/Animations/Idle/Ideal_Anim
+[2025.03.02-11.44.37:475][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Ideal_AnimCB9308CB4B4BA68934C60485D87CC1BB.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Idle/Ideal_Anim.uasset'
+[2025.03.02-11.44.37:478][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Idle/Ideal_PhysicsAsset] ([1] browsable assets)...
+[2025.03.02-11.44.37:478][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Idle/Ideal_PhysicsAsset]
+[2025.03.02-11.44.37:482][381]LogSavePackage: Moving output files for package: /Game/Animations/Idle/Ideal_PhysicsAsset
+[2025.03.02-11.44.37:482][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Ideal_PhysicsAssetD2B306A6466549E69AFBB28462D1F8FE.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Idle/Ideal_PhysicsAsset.uasset'
+[2025.03.02-11.44.37:486][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Idle/Ideal_Skeleton] ([1] browsable assets)...
+[2025.03.02-11.44.37:486][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Idle/Ideal_Skeleton]
+[2025.03.02-11.44.37:488][381]LogSavePackage: Moving output files for package: /Game/Animations/Idle/Ideal_Skeleton
+[2025.03.02-11.44.37:488][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Ideal_Skeleton5F944B3941F4084C6D7A88A07749DC73.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Idle/Ideal_Skeleton.uasset'
+[2025.03.02-11.44.37:492][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Crouch_Walk/standardSurface1] ([1] browsable assets)...
+[2025.03.02-11.44.37:492][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Crouch_Walk/standardSurface1]
+[2025.03.02-11.44.37:496][381]LogSavePackage: Moving output files for package: /Game/Animations/Crouch_Walk/standardSurface1
+[2025.03.02-11.44.37:496][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/standardSurface1DFE86FD6402FC8C85D36848E2466AE70.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Crouch_Walk/standardSurface1.uasset'
+[2025.03.02-11.44.37:500][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Idle/standardSurface1] ([1] browsable assets)...
+[2025.03.02-11.44.37:500][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Idle/standardSurface1]
+[2025.03.02-11.44.37:503][381]LogSavePackage: Moving output files for package: /Game/Animations/Idle/standardSurface1
+[2025.03.02-11.44.37:503][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/standardSurface1A5C0EC67406F4ECE0617079D44628D19.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Idle/standardSurface1.uasset'
+[2025.03.02-11.44.37:506][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Walk/standardSurface1] ([1] browsable assets)...
+[2025.03.02-11.44.37:506][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Walk/standardSurface1]
+[2025.03.02-11.44.37:510][381]LogSavePackage: Moving output files for package: /Game/Animations/Walk/standardSurface1
+[2025.03.02-11.44.37:510][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/standardSurface10D192E03493E33EDD0FB1AB2C7FF4CFF.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Walk/standardSurface1.uasset'
+[2025.03.02-11.44.37:514][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Walk/Walk] ([1] browsable assets)...
+[2025.03.02-11.44.37:514][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Walk/Walk]
+[2025.03.02-11.44.37:883][381]LogSavePackage: Moving output files for package: /Game/Animations/Walk/Walk
+[2025.03.02-11.44.37:883][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Walk861F9D9B4DE13243552576B3559922E1.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Walk/Walk.uasset'
+[2025.03.02-11.44.37:887][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Walk/Walk_Anim] ([1] browsable assets)...
+[2025.03.02-11.44.37:887][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Walk/Walk_Anim]
+[2025.03.02-11.44.37:895][381]LogSavePackage: Moving output files for package: /Game/Animations/Walk/Walk_Anim
+[2025.03.02-11.44.37:895][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Walk_Anim23BFC5D54D8BB04639969BA04C8FA3FA.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Walk/Walk_Anim.uasset'
+[2025.03.02-11.44.37:898][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Walk/Walk_PhysicsAsset] ([1] browsable assets)...
+[2025.03.02-11.44.37:898][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Walk/Walk_PhysicsAsset]
+[2025.03.02-11.44.37:902][381]LogSavePackage: Moving output files for package: /Game/Animations/Walk/Walk_PhysicsAsset
+[2025.03.02-11.44.37:902][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Walk_PhysicsAssetBA2BFB294EFF3BB0E0EFAF810CF1239B.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Walk/Walk_PhysicsAsset.uasset'
+[2025.03.02-11.44.37:907][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animations/Walk/Walk_Skeleton] ([1] browsable assets)...
+[2025.03.02-11.44.37:907][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Walk/Walk_Skeleton]
+[2025.03.02-11.44.37:909][381]LogSavePackage: Moving output files for package: /Game/Animations/Walk/Walk_Skeleton
+[2025.03.02-11.44.37:909][381]LogSavePackage: Moving '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/Walk_Skeleton05AC575047E8C8464CCE63B67FACD229.tmp' to '../../../../../../Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Walk/Walk_Skeleton.uasset'
+[2025.03.02-11.44.37:926][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.21 sec (total: 3.29 sec)
+[2025.03.02-11.44.38:069][381]LogStall: Shutdown...
+[2025.03.02-11.44.38:069][381]LogStall: Shutdown complete.
+[2025.03.02-11.44.38:175][381]LogSlate: Window 'ClientBrief1 - Unreal Editor' being destroyed
+[2025.03.02-11.44.38:503][381]LogContentValidation: Display: Starting to validate 15 assets
+[2025.03.02-11.44.38:503][381]LogContentValidation: Enabled validators:
+[2025.03.02-11.44.38:503][381]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.02-11.44.38:503][381]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.02-11.44.38:503][381]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.02-11.44.38:503][381]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.02-11.44.38:503][381]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.02-11.44.38:503][381]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.02-11.44.38:503][381]AssetCheck: /Game/Animations/Crouch_Walk/Crouch_Walk Validating asset
+[2025.03.02-11.44.38:504][381]AssetCheck: /Game/Animations/Crouch_Walk/Crouch_Walk_Anim Validating asset
+[2025.03.02-11.44.38:504][381]AssetCheck: /Game/Animations/Crouch_Walk/Crouch_Walk_PhysicsAsset Validating asset
+[2025.03.02-11.44.38:504][381]AssetCheck: /Game/Animations/Crouch_Walk/Crouch_Walk_Skeleton Validating asset
+[2025.03.02-11.44.38:504][381]AssetCheck: /Game/Animations/Idle/Ideal Validating asset
+[2025.03.02-11.44.38:504][381]AssetCheck: /Game/Animations/Idle/Ideal_Anim Validating asset
+[2025.03.02-11.44.38:504][381]AssetCheck: /Game/Animations/Idle/Ideal_PhysicsAsset Validating asset
+[2025.03.02-11.44.38:504][381]AssetCheck: /Game/Animations/Idle/Ideal_Skeleton Validating asset
+[2025.03.02-11.44.38:504][381]AssetCheck: /Game/Animations/Crouch_Walk/standardSurface1 Validating asset
+[2025.03.02-11.44.38:505][381]AssetCheck: /Game/Animations/Idle/standardSurface1 Validating asset
+[2025.03.02-11.44.38:505][381]AssetCheck: /Game/Animations/Walk/standardSurface1 Validating asset
+[2025.03.02-11.44.38:505][381]AssetCheck: /Game/Animations/Walk/Walk Validating asset
+[2025.03.02-11.44.38:505][381]AssetCheck: /Game/Animations/Walk/Walk_Anim Validating asset
+[2025.03.02-11.44.38:505][381]AssetCheck: /Game/Animations/Walk/Walk_PhysicsAsset Validating asset
+[2025.03.02-11.44.38:505][381]AssetCheck: /Game/Animations/Walk/Walk_Skeleton Validating asset
+[2025.03.02-11.44.38:510][381]Cmd: QUIT_EDITOR
+[2025.03.02-11.44.38:511][381]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.03.02-11.44.38:530][382]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.03.02-11.44.38:531][382]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.03.02-11.44.38:532][382]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.03.02-11.44.38:536][382]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:537][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:582][382]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.03.02-11.44.38:600][382]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.03.02-11.44.38:619][382]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:619][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:625][382]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:625][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:630][382]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:630][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:634][382]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:634][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:640][382]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:640][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:645][382]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:645][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:649][382]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:649][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:655][382]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:655][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:660][382]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:660][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:664][382]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:664][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:670][382]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:670][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:674][382]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:674][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:679][382]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:679][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:683][382]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:684][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:689][382]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:689][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:693][382]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:693][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:700][382]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:700][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:705][382]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:705][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:711][382]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:711][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:716][382]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.03.02-11.44.38:716][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.02-11.44.38:736][382]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.03.02-11.44.38:759][382]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.03.02-11.44.38:759][382]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.03.02-11.44.38:759][382]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.03.02-11.44.38:916][382]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.03.02-11.44.38:916][382]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.03.02-11.44.38:916][382]LogAudio: Display: Audio Device unregistered from world 'TestLevel'.
+[2025.03.02-11.44.38:916][382]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.03.02-11.44.38:916][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.02-11.44.38:928][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.02-11.44.39:006][382]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.03.02-11.44.39:007][382]LogAudio: Display: Audio Device Manager Shutdown
+[2025.03.02-11.44.39:016][382]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.03.02-11.44.39:016][382]LogExit: Preparing to exit.
+[2025.03.02-11.44.39:123][382]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2025.03.02-11.44.39:133][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:134][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:146][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:151][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:151][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:152][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:153][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:153][382]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:154][382]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.02-11.44.39:625][382]LogEditorDataStorage: Deinitializing
+[2025.03.02-11.44.40:103][382]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.03.02-11.44.40:298][382]LogExit: Editor shut down
+[2025.03.02-11.44.40:332][382]LogExit: Transaction tracking system shut down
+[2025.03.02-11.44.41:209][382]LogExit: Object subsystem successfully closed.
+[2025.03.02-11.44.41:307][382]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.03.02-11.44.42:620][382]LogMemoryProfiler: Shutdown
+[2025.03.02-11.44.42:621][382]LogNetworkingProfiler: Shutdown
+[2025.03.02-11.44.42:621][382]LoadingProfiler: Shutdown
+[2025.03.02-11.44.42:621][382]LogTimingProfiler: Shutdown
+[2025.03.02-11.44.43:682][382]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.03.02-11.44.43:740][382]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.03.02-11.44.43:740][382]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA1671D6-44D4-2551-6642-B3B320F607DA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.0-37670630%2B%2B%2BUE5%2BRelease-5.5&UserID=b6700631405e639c929ac0bb999d60f6%7Ce4b6d5b720d942509494b30035733578%7C5df6c6b7-532e-4e0b-87bf-7834cfeb709c&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.03.02-11.44.44:504][382]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.03.02-11.44.44:519][382]RenderDocPlugin: plugin has been unloaded.
+[2025.03.02-11.44.44:520][382]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.03.02-11.44.44:521][382]LogNFORDenoise: NFORDenoise function shutting down
+[2025.03.02-11.44.44:532][382]LogXGEController: Cleaning working directory: C:/Users/keish/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.03.02-11.44.44:551][382]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.03.02-11.44.44:551][382]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.03.02-11.44.44:552][382]LogPakFile: Destroying PakPlatformFile
+[2025.03.02-11.44.45:048][382]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.03.02-11.44.45:120][382]LogExit: Exiting.
+[2025.03.02-11.44.45:185][382]Log file closed, 03/02/25 11:44:45
