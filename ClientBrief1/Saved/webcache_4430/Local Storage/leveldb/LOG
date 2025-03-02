@@ -1,2 +1,3 @@
-2025/02/24-14:29:16.688 36ac Creating DB C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2025/02/24-14:29:16.716 36ac Reusing MANIFEST C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2025/03/02-10:54:40.278 6744 Reusing MANIFEST C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2025/03/02-10:54:40.289 6744 Recovering log #3
+2025/03/02-10:54:40.291 6744 Reusing old log C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Saved/webcache_4430\Local Storage\leveldb/000003.log 
