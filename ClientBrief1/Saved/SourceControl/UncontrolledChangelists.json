@@ -82,13 +82,11 @@
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Fab/Megascans/3D/Wooden_Shelf_vlwmahl/Medium/T_vlwmahl_2K_ORM.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Fab/Megascans/3D/Wooden_Shelf_vlwmahl/Medium/vlwmahl_tier_2.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Placeholders/DefaultMaterial.uasset",
-				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Placeholders/standardSurface1.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Placeholders/TableFinal.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/UI/Main_Menu.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/MainMenuMap.umap",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/UI/LN_Kitchen_Proper_2_objects.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/UI/MenuGameMode.uasset",
-				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/3DModels/TableFinal.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/3DModels/standardSurface1.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/3DModels/Table/standardSurface1.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/3DModels/Table/TableFinal.uasset",
@@ -108,6 +106,14 @@
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/3DModels/Vegetables/hot_peper.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/3DModels/Cutlery/ladle.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_PotionIngredients.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/AI/AIC_Witch.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/AI/BT_Witch.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/AI/BP_Witch.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/AI/BTT_MoveToRandomLocation.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/AI/BTT_MoveToTarget.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/AI/BB_Witch.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Placeholders/standardSurface1.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/3DModels/TableFinal.uasset",
 				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_GrabObject.uasset"
 			]
 		}
