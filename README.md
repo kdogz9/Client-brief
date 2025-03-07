@@ -1,18 +1,23 @@
 # Development Commentary Template
 
-## Project Outline 
+## Project Outline  
 
-The core concept of this project revolves around an intense escape scenario where the player is cursed by an evil witch and must escape from a dangerous kitchen environment. The player finds themselves trapped in a dimly lit kitchen filled with looming shadows which would be the witch luring in the background. The only way out is to solve a series of intricate puzzles while avoiding the watchful eye of the witch, who prowls the area, ready to strike at any sign of movement. The game will feature two primary rooms: the kitchen, where the player first wakes up, and the brewing station, a secondary area filled with alchemical ingredients, spell books, and mystical contraptions that can either aid or hinder the player’s escape. Each room will contain unique interactions, environmental storytelling through the use of recipes, and mechanics designed to make the player feel the weight of their predicament. 
+The project we are making is heavily inspired by little nightmares as Super massive games is our client brief for this project. We came up with a game idea where the player is trapped in a witches kitchen and they need to do a bunch of different puzzles to escape from the witch.These puzzles involve making potions, pulling boxes to be able to jump on surfaces and avoiding objects that are falling. 
 
-The initial goal of the project is to code unique game mechanics that elevate the gameplay experience and make it more engaging, ensuring that players feel constantly challenged yet rewarded for their problem-solving abilities. For instance, puzzles could involve mixing ingredients in a precise order to create a potion that unlocks a door, sneaking past the witch by hiding in cupboards, or using enchanted objects to manipulate the environment. A significant focus will be placed on ensuring that these mechanics are intuitive yet offer depth, encouraging multiple strategies for escape. 
+I found the beginning quite slow but I enjoyed making a Figma board and breaking down each task I needed to do so that I could stay on track and understand what needed to be done for the game. I also enjoyed making a moodboard of little nightmares and exploring images related to this game and also images for our own theme of a witch kitchen. 
 
-However, as ambitious as the project is, there are notable challenges ahead. One of the biggest obstacles is working with animations, as I am relatively new to this aspect of game development. Ensuring smooth and natural movements for the witch and the player will be critical to maintaining immersion and tension, but it will require a steep learning curve. Additionally, implementing dynamic AI behavior for the witch, so she reacts realistically to the player's actions, will be another major challenge. Beyond animations, another hurdle will be learning Unreal Engine’s Blueprint system, as I am new to the engine and still getting accustomed to its workflow. Blueprints are a powerful tool for creating game logic without deep programming knowledge, but mastering their intricacies will take time and practice. Debugging issues, optimizing performance, and ensuring that all interactions function as intended will be crucial steps in making the game feel polished and cohesive. Despite these challenges, the project presents an exciting opportunity to grow my skills and create an engaging horror-puzzle experience. By breaking down each element into smaller, manageable tasks—such as starting with simple movement animations before refining AI behaviors—I plan to tackle these challenges one step at a time. Additionally, leveraging online resources, tutorials, and community support will be invaluable in overcoming technical difficulties and improving my understanding of Unreal Engine. Ultimately, this project is not just about developing a game but also about pushing my skills to new heights, experimenting with innovative mechanics, and crafting an immersive experience that captivates players. If executed well, the game could offer a unique blend of horror, strategy, and puzzle-solving, making it a truly memorable escape room-style adventure.
+I think I may run into some issues with working with the animations as I have never worked with animations before but with the right documentation I think I should be able to overcome this challenge and end up understanding implementing animations a bit better. 
 
 ## Research (Suggested Word Count 1,100) 
 
 ### Methodology  
 - Identify relevant sources for the project, including articles, documentation, talks, and games.  
 - Detail how these sources have informed your practical work and influenced your approach.
+
+I copied the game mechnaics that was discussed from the second week of the project and broke it down into simple mechanics so I knew what I needed to code. This made it easier to find what code I needed to implement throughout the project. I then highlighted each mechanic so I knew what needed to be done and what I had finished so I could keep on track. Breaking down the mechanics also helped me find the correct documentation I needed to be able to get help with for the project. 
+
+<img src="Client brief.png">
+Figure 1. Figma Jam Board, Mechanic Breakdown.
 
 ### Game Sources  
 - Conduct research on games that are relevant to your project. Provide a brief description of each game and the insights it offers.  
