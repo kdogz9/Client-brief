@@ -20,9 +20,9 @@ I copied the game mechnaics that was discussed from the second week of the proje
 Figure 1. Figma Jam Board, Mechanic Breakdown.
 
 ### Game Sources  
-- Conduct research on games that are relevant to your project. Provide a brief description of each game and the insights it offers.  
-- Analyse the game's approach, cross-referencing it with other sources such as articles or talks to support your analysis.  
-- Explain how these insights apply to your project and influence your decision-making process.
+Little Nightmares is a puzzle-based game where players control a small character navigating through a mysterious building filled with monstrous creatures. The goal is to escape the building without being caught. The environment is dark and atmospheric, relying heavily on the use of light and shadows to create tension. This approach has influenced our design, where we've intentionally crafted a dark environment with minimal light sources. Additionally, our character’s color scheme is designed to stand out in the shadowy surroundings, much like in Little Nightmares, enhancing their presence in the eerie world. 
+
+
 
 ### Academic Sources  
 - Research academic papers, books, or articles that provide theoretical guidance for your project. Include a brief summary of each source.  
