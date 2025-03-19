@@ -11,8 +11,7 @@ I think I may run into some issues with working with the animations as I have ne
 ## Research (Suggested Word Count 1,100) 
 
 ### Methodology  
-- Identify relevant sources for the project, including articles, documentation, talks, and games.  
-- Detail how these sources have informed your practical work and influenced your approach.
+
 
 I copied the game mechnaics that was discussed from the second week of the project and broke it down into simple mechanics so I knew what I needed to code. This made it easier to find what code I needed to implement throughout the project. I then highlighted each mechanic so I knew what needed to be done and what I had finished so I could keep on track. Breaking down the mechanics also helped me find the correct documentation I needed to be able to get help with for the project. 
 
@@ -20,17 +19,16 @@ I copied the game mechnaics that was discussed from the second week of the proje
 Figure 1. Figma Jam Board, Mechanic Breakdown.
 
 ### Game Sources  
-- Conduct research on games that are relevant to your project. Provide a brief description of each game and the insights it offers.  
-- Analyse the game's approach, cross-referencing it with other sources such as articles or talks to support your analysis.  
-- Explain how these insights apply to your project and influence your decision-making process.
+Little Nightmares is a puzzle-based game where players control a small character navigating through a mysterious building filled with monstrous creatures. The goal is to escape the building without being caught. The environment is dark and atmospheric, relying heavily on the use of light and shadows to create tension. This approach has influenced our design, where we've intentionally crafted a dark environment with minimal light sources. Additionally, our character’s color scheme is designed to stand out in the shadowy surroundings, much like in Little Nightmares, enhancing their presence in the eerie world. 
+
+
 
 ### Academic Sources  
 - Research academic papers, books, or articles that provide theoretical guidance for your project. Include a brief summary of each source.  
 - Describe how the academic research applies to your project and shapes your design and development decisions.
 
 ### Documentation Sources  
-- Investigate relevant documentation, tutorials, or instructional videos that provide technical insights into your tasks. Summarise the content and its relevance to your project.  
-- Explain how this technical knowledge supports your project work and guides your decision-making process.
+I used in-depth YouTube tutorials to create the game mechanics our group had discussed. I utilized UI tutorials to develop a game menu and animation videos to implement character actions, such as crouching. Additionally, I followed tutorials for creating an interactive system, allowing objects to be moved and hobs to be turned on and off. I also learned how to implement a potion mechanic through another video, and used Unreal Engine in conjunction with these tutorials. By adapting the techniques shown in these videos, I was able to tailor them to meet the specific needs of our project.
 
 ## Implementation (Suggested Word Count 1,100)  
 
@@ -40,9 +38,7 @@ Figure 1. Figma Jam Board, Mechanic Breakdown.
 - Include screenshots, diagrams, or code snippets where relevant to showcase your progress.
 
 ### New Approaches  
-- Detail any innovative or new approaches you explored during the project.  
-- Explain why these approaches were chosen and how they differ from standard practices.  
-- Evaluate the success of these approaches, including any challenges faced and lessons learned.
+I had to explore how to implement animations and create the blueprints for them. To better organize my approach, I learned to use Figma boards, which allowed me to condense my group's ideas and determine which parts needed to be developed and which were unnecessary. By breaking everything down, I was able to pinpoint the documentation I needed and tackle tasks step by step, ensuring each was completed to a high standard. I also highlighted areas that needed more attention or less time, helping me stay on track without feeling overwhelmed. Creating a Figma board gave me a clear visual of my tasks, allowing me to stay focused and avoid falling behind. Although the animations and blueprints were challenging at first, with practice, I began to understand them more, though I still need more practice to master them.
 
 ### Testing
 - Document the user testing conducted, specifying the type of tests used (e.g., automated testing, guided user testing, blind testing).  
