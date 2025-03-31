@@ -1,4 +1,9 @@
-# Development Commentary Template
+# Development Commentary Template 
+
+## Brief 
+
+ How does the design of video game space affect the actions and experiences of players? Consider how different game spaces have been categorised in the literature and concepts of space and place discussed in the lecture.  
+
 
 ## Project Outline  
 
@@ -30,6 +35,8 @@ Little Nightmares is a puzzle-based game where players control a small character
 ### Documentation Sources  
 I used in-depth YouTube tutorials to create the game mechanics our group had discussed. I utilized UI tutorials to develop a game menu and animation videos to implement character actions, such as crouching. Additionally, I followed tutorials for creating an interactive system, allowing objects to be moved and hobs to be turned on and off. I also learned how to implement a potion mechanic through another video, and used Unreal Engine in conjunction with these tutorials. By adapting the techniques shown in these videos, I was able to tailor them to meet the specific needs of our project.
 
+- talk about camera video (Unreal Engine - Side Scroller Camera Tutorial, 2023).
+
 ## Implementation (Suggested Word Count 1,100)  
 
 ### Process
@@ -46,10 +53,13 @@ I had to explore how to implement animations and create the blueprints for them.
 - Describe how these issues were addressed. If any issues were not resolved, provide a clear justification for leaving them unaddressed.
 
 ### Technical Difficulties
-- Identify any technical difficulties encountered during the implementation phase.  
-- Provide details on how these issues were diagnosed and resolved.  
+Throughout this project, I encountered several small difficulties during playtesting. These issues included the player’s jump being too high, the box flying when pulled, and the menu preventing the player from moving once they entered the level. To resolve these problems, I adjusted the jumping velocity for the player, fixed the axis on the box, and modified the force applied when the player pulled the object. Additionally, I changed the node for the UI from game to UI, allowing the player to move freely within the level.I also had to uncheck a colision box on the camera to stop it from following the player and making the player get stuck. 
+
+In the future, I would make sure to pay more attemtion to the blueprints to advoid any slight mistakes and I would also make sure that the physics on objects works correctly rather than leaving it to the last minute. 
+
+
 - If any difficulties remain unresolved, explain the impact on the project and any mitigation strategies used to minimise their effect.  
-- Reflect on what you would do differently in future projects to avoid similar issues.
+
 
 ## Outcomes (Suggested Word Count 300) 
 
@@ -91,6 +101,31 @@ I had to explore how to implement animations and create the blueprints for them.
 - Consider any new tools, techniques, or approaches you would explore in future projects to achieve better results.
 
 ## Bibliography  
+
+Unreal Engine - Side Scroller Camera Tutorial (2023) At: https://www.youtube.com/watch?v=659FjVeibv0 (Accessed  26/03/2025).
+
+A destroy actor and respawn tutorial. (2022) At: https://www.youtube.com/watch?v=Z_3B_EKSCDY (Accessed  29/03/2025).
+ 
+ How To Pick Up And Drop Items | Hold Items In Hand - Unreal Engine Tutorial (2021) At: https://www.youtube.com/watch?v=EbZrfsJ1fWc (Accessed  29/03/2025).
+
+How To Attach A Weapon To The Player | Give The Player A Weapon - Unreal Engine Tutorial (2021) At: https://www.youtube.com/watch?v=mSCPg3d5Kgg (Accessed  29/03/2025).
+
+Unreal Engine - Ingredient Pickup and Potion Crafting (2025) At: https://www.youtube.com/watch?v=-hOStF6TkHQ (Accessed  29/03/2025).
+ 
+ How To Create A Main Menu - Unreal Engine 5 Tutorial (2022) At: https://www.youtube.com/watch?v=kumZj_mov58 (Accessed  29/03/2025).
+
+UNREAL ENGINE 5 HOW TO PICKUP AND READ NOTES TUTORIAL (2023) At: https://www.youtube.com/watch?v=719PxAugimo (Accessed  29/03/2025).
+
+How To Display A Prompt Above An Item In-Game - Unreal Engine 4/5 Tutorial (2022) At: https://www.youtube.com/watch?v=tob3GEdMJFc (Accessed  29/03/2025).
+
+Unreal Engine - Sound and Music In 6 Minutes (2021) At: https://www.youtube.com/watch?v=1GJRoUJvijw (Accessed  29/03/2025).
+
+How To Use Trigger Box - Unreal Engine 5 Tutorial (2024) At: https://www.youtube.com/watch?v=SB9-NmFrY78 (Accessed  29/03/2025).
+ 
+ how to make items fall when the player enters a zone unreal engine 5 - Google Search (s.d.) At: https://www.google.com/search?q=how+to+make+items+fall+when+the+player+enters+a+zone+unreal+engine+5&rlz=1C1GCEA_enGB1152GB1152&oq=ho&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg7MgYIARBFGDsyCAgCEEUYJxg7MgYIAxBFGDkyDQgEEAAYkQIYgAQYigUyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgzNDU2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8 (Accessed  29/03/2025).
+
+How To Make & Trigger A Simple Cutscene | Unreal Engine 5 Tutorial (2024) At: https://www.youtube.com/watch?v=AXGcKi66ENc (Accessed  29/03/2025).
+ 
 - Compile a complete list of all sources referenced throughout your project. This may include articles, journals, videos, games, software, documentation, or any other materials.  
 - Ensure all references are formatted according to the [university's citation method](https://mylibrary.uca.ac.uk/referencing).  
 - Organise your references in alphabetical order. Alternatively, you may separate them by type (e.g., academic sources, games, videos), but consistency is key.
