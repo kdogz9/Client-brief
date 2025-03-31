@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/TestLevel.umap",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Crafting_lv.umap",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_Cauldron.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/ThirdPerson/Blueprints/BP_Push.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/AI/BP_Witch.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/MDMedieval/Meshes/MDMedieval_Wall.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/MDMedieval/Meshes/MDMedieval_Wall1.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/UI/Menu/Main_Menu.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Interact_2.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/PushPull_2.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/AB_Small.uasset",
+				"D:/university work/Little Nightmares 2 UNI PROJECT CLIENT/unreal/Client-brief/Client-brief/ClientBrief1/Content/Crafting_lv.umap"
+			]
+		}
+	]
+}
