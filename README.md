@@ -33,9 +33,7 @@ Little Nightmares is a puzzle-based game where players control a small character
 - Describe how the academic research applies to your project and shapes your design and development decisions.
 
 ### Documentation Sources  
-I used in-depth YouTube tutorials to create the game mechanics our group had discussed. I utilized UI tutorials to develop a game menu and animation videos to implement character actions, such as crouching. Additionally, I followed tutorials for creating an interactive system, allowing objects to be moved and hobs to be turned on and off. I also learned how to implement a potion mechanic through another video, and used Unreal Engine in conjunction with these tutorials. By adapting the techniques shown in these videos, I was able to tailor them to meet the specific needs of our project.
-
-- talk about camera video (Unreal Engine - Side Scroller Camera Tutorial, 2023).
+I used in-depth YouTube tutorials to create the game mechanics our group had discussed. I utilized UI tutorials to develop a game menu (How To Create A Main Menu - Unreal Engine 5 Tutorial, 2022). Additionally, I followed tutorials for creating an interactive system, allowing objects to be picked up (How To Pick Up And Drop Items | Hold Items In Hand - Unreal Engine Tutorial, 2021). I also learned how to implement a potion mechanic through another video (Unreal Engine - Ingredient Pickup and Potion Crafting, 2025). By adapting the techniques shown in these videos, I was able to tailor them to meet the specific needs of our project.I also referenced some documentation sources on the unreal engine website.This was helpful as I was able to see peoples discussions and how they broke down the issues they had and how they were solved. This was a more beneficial way of learning sometimes. (How can I change a characters jump height in blueprints? - Development / Character & Animation, 2017)
 
 ## Implementation (Suggested Word Count 1,100)  
 
@@ -86,51 +84,51 @@ In the future, I would make sure to pay more attemtion to the blueprints to advo
 - Identify any research gaps or areas where additional information could have improved your project outcomes.
 
 ### Positive Analysis 
-- Reflect on the successful aspects of the project.  
-- Highlight specific elements that worked well, such as technical solutions, creative decisions, or user feedback.  
+The successful parts of the project included staying on track, completing the mechanics quickly, and ensuring everything worked within a reasonable time frame. I worked hard on the project and explored learning through YouTube tutorials and documentation, which helped me understand the concepts I was learning. As a result, I felt more comfortable with blueprints and was able to resolve issues, such as the box problem mentioned earlier. Additionally, I used my problem-solving skills to tailor the tutorials more specifically to my game. Over time, I became more confident and began working on blueprints independently. 
+
 - Provide evidence to support your analysis, such as test results, screenshots, or user comments.
 
 ### Negative Analysis  
-- Identify the areas of the project that did not go as planned or could have been improved.  
-- Discuss challenges you faced, whether technical, creative, or time-related, and evaluate their impact on the final product.  
-- Reflect on any mistakes or missteps and what you learned from them.
+There were several areas of the project that didn’t go as planned. I encountered an issue with not having the level design until week 9, which put a strain on me as I had to fix errors that cropped up later. I also struggled to divide my attention between the write-up and the project itself. Learning animations and how to implement them proved to be another challenge. Additionally, I had to make adjustments to the level when implementing the blueprints to ensure they worked properly in the new level, which led to small delays. I didn’t manage to user test my game until week 9, and it wasn’t fully complete due to missing aspects from my group partners. Through this experience, I’ve learned that I need to take on more of a leadership role to ensure everyone completes their tasks on time, giving me enough time for user testing and to address any minor issues without the pressure of time constraints.
 
 ### Next Time
-- Outline what you would do differently if you were to undertake a similar project again.  
-- Suggest improvements to your workflow, research methods, or implementation process based on your reflections.  
+If I were to do a similar project again, I would plan everything out using Figma, as it helped me stay on track throughout the process. I would also prioritize conducting research before starting the project, as I jumped in right after our ideas were discussed, which made me have to work backwards. Additionally, I would make use of more documentation sources beyond just YouTube tutorials to broaden my knowledge and avoid getting stuck in a comfort zone.
 - Consider any new tools, techniques, or approaches you would explore in future projects to achieve better results.
 
 ## Bibliography  
 
-Unreal Engine - Side Scroller Camera Tutorial (2023) At: https://www.youtube.com/watch?v=659FjVeibv0 (Accessed  26/03/2025).
 
 A destroy actor and respawn tutorial. (2022) At: https://www.youtube.com/watch?v=Z_3B_EKSCDY (Accessed  29/03/2025).
- 
+
+How can I change a character's jump height in blueprints? - Development / Character & Animation (2017) At: https://forums.unrealengine.com/t/how-can-i-change-a-characters-jump-height-in-blueprints/283857/6 (Accessed  01/04/2025).
+
+ How To Attach A Weapon To The Player | Give The Player A Weapon - Unreal Engine Tutorial (2021) At: https://www.youtube.com/watch?v=mSCPg3d5Kgg (Accessed  29/03/2025).
+
+How To Create A Main Menu - Unreal Engine 5 Tutorial (2022) At: https://www.youtube.com/watch?v=kumZj_mov58 (Accessed  29/03/2025).
+
+ How To Display A Prompt Above An Item In-Game - Unreal Engine 4/5 Tutorial (2022) At: https://www.youtube.com/watch?v=tob3GEdMJFc (Accessed  29/03/2025).
+
+ How To Make & Trigger A Simple Cutscene | Unreal Engine 5 Tutorial (2024) At: https://www.youtube.com/watch?v=AXGcKi66ENc (Accessed  29/03/2025).
+
+ How To Make Items Fall When The Player Enters A Zone Unreal Engine 5 - Google Search (s.d.) At: https://www.google.com/search?q=how+to+make+items+fall+when+the+player+enters+a+zone+unreal+engine+5&rlz=1C1GCEA_enGB1152GB1152&oq=ho&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg7MgYIARBFGDsyCAgCEEUYJxg7MgYIAxBFGDkyDQgEEAAYkQIYgAQYigUyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgzNDU2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8 (Accessed  29/03/2025).
+
  How To Pick Up And Drop Items | Hold Items In Hand - Unreal Engine Tutorial (2021) At: https://www.youtube.com/watch?v=EbZrfsJ1fWc (Accessed  29/03/2025).
 
-How To Attach A Weapon To The Player | Give The Player A Weapon - Unreal Engine Tutorial (2021) At: https://www.youtube.com/watch?v=mSCPg3d5Kgg (Accessed  29/03/2025).
+ Unreal Engine - Ingredient Pickup and Potion Crafting (2025) At: https://www.youtube.com/watch?v=-hOStF6TkHQ (Accessed  29/03/2025).
 
-Unreal Engine - Ingredient Pickup and Potion Crafting (2025) At: https://www.youtube.com/watch?v=-hOStF6TkHQ (Accessed  29/03/2025).
+ Unreal Engine - Side Scroller Camera Tutorial (2023) At: https://www.youtube.com/watch?v=659FjVeibv0 (Accessed  26/03/2025).
+
+ Unreal Engine - Sound and Music In 6 Minutes (2021) At: https://www.youtube.com/watch?v=1GJRoUJvijw (Accessed  29/03/2025).
+
+ UNREAL ENGINE 5 HOW TO PICKUP AND READ NOTES TUTORIAL (2023) At: https://www.youtube.com/watch?v=719PxAugimo (Accessed  29/03/2025).
+
+ How To Use Trigger Box - Unreal Engine 5 Tutorial (2024) At: https://www.youtube.com/watch?v=SB9-NmFrY78 (Accessed  29/03/2025).
  
- How To Create A Main Menu - Unreal Engine 5 Tutorial (2022) At: https://www.youtube.com/watch?v=kumZj_mov58 (Accessed  29/03/2025).
-
-UNREAL ENGINE 5 HOW TO PICKUP AND READ NOTES TUTORIAL (2023) At: https://www.youtube.com/watch?v=719PxAugimo (Accessed  29/03/2025).
-
-How To Display A Prompt Above An Item In-Game - Unreal Engine 4/5 Tutorial (2022) At: https://www.youtube.com/watch?v=tob3GEdMJFc (Accessed  29/03/2025).
-
-Unreal Engine - Sound and Music In 6 Minutes (2021) At: https://www.youtube.com/watch?v=1GJRoUJvijw (Accessed  29/03/2025).
-
-How To Use Trigger Box - Unreal Engine 5 Tutorial (2024) At: https://www.youtube.com/watch?v=SB9-NmFrY78 (Accessed  29/03/2025).
- 
- how to make items fall when the player enters a zone unreal engine 5 - Google Search (s.d.) At: https://www.google.com/search?q=how+to+make+items+fall+when+the+player+enters+a+zone+unreal+engine+5&rlz=1C1GCEA_enGB1152GB1152&oq=ho&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg7MgYIARBFGDsyCAgCEEUYJxg7MgYIAxBFGDkyDQgEEAAYkQIYgAQYigUyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgzNDU2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8 (Accessed  29/03/2025).
-
-How To Make & Trigger A Simple Cutscene | Unreal Engine 5 Tutorial (2024) At: https://www.youtube.com/watch?v=AXGcKi66ENc (Accessed  29/03/2025).
- 
-- Compile a complete list of all sources referenced throughout your project. This may include articles, journals, videos, games, software, documentation, or any other materials.  
-- Ensure all references are formatted according to the [university's citation method](https://mylibrary.uca.ac.uk/referencing).  
-- Organise your references in alphabetical order. Alternatively, you may separate them by type (e.g., academic sources, games, videos), but consistency is key.
 
 ## Declared Assets
+
+AmaticSC/fonts/ttf/AmaticSC-Regular.ttf at main · googlefonts/AmaticSC (s.d.) At: https://github.com/googlefonts/AmaticSC/blob/main/fonts/ttf/AmaticSC-Regular.ttf (Accessed  01/04/2025).
+ 
 - Provide a detailed list of any third-party assets used in the project.  
 - This includes asset packs, music, sound effects, 3D models, textures, scripts, or code from external sources.  
 - Declare any use of AI tools (e.g., ChatGPT, GitHub Copilot, Meshy) or pre-existing code. Specify the purpose of these assets/tools and how they were integrated into your work.  
