@@ -31,14 +31,18 @@ Little Nightmares is a puzzle-based game where players control a small character
 ### Academic Sources  
 I recently read a book called *Animating Real-Time Game Characters*, and one of the chapters discusses how the environment and space influence design elements, particularly when it comes to animation sets. This insight made me realize that focusing on character movement is crucial in defining the space around them. By understanding how a character moves, designers can better shape the environment to complement and enhance those movements.
 
-I also read *3D Character Animation*, which explores how timing can significantly influence a character's emotion and personality. The book emphasizes that animation plays a crucial role in conveying physical presence within a space, as the speed and pacing of movements can alter the context of a situation. This concept led me to focus on creating a ragdoll animation for the character when killed, as it allows the player's death to be communicated more dramatically and realistically, changing the emotional tone of the moment and adding to the overall experience.
+I also read *3D Character Animation*, which explores how timing can significantly influence a character's emotion and personality. The book emphasizes that animation plays a crucial role in conveying physical presence within a space, as the speed and pacing of movements can alter the context of a situation. 
+how player animates effects imersion and
 
 ### Documentation Sources  
 I used in-depth YouTube tutorials to create the game mechanics our group had discussed. I utilized UI tutorials to develop a game menu (How To Create A Main Menu - Unreal Engine 5 Tutorial, 2022). Additionally, I followed tutorials for creating an interactive system, allowing objects to be picked up (How To Pick Up And Drop Items | Hold Items In Hand - Unreal Engine Tutorial, 2021). I also learned how to implement a potion mechanic through another video (Unreal Engine - Ingredient Pickup and Potion Crafting, 2025). By adapting the techniques shown in these videos, I was able to tailor them to meet the specific needs of our project.I also referenced some documentation sources on the unreal engine website.This was helpful as I was able to see peoples discussions and how they broke down the issues they had and how they were solved. This was a more beneficial way of learning sometimes. (How can I change a characters jump height in blueprints? - Development / Character & Animation, 2017)
 
 ## Implementation (Suggested Word Count 1,100)  
 
-### Process
+### Process 
+
+This concept led me to focus on creating a ragdoll animation for the character when killed, as it allows the player's death to be communicated more dramatically and realistically, changing the emotional tone of the moment and adding to the overall experience.
+ 
 - Provide a step-by-step breakdown of your development process, including key milestones and decisions made throughout the project.  
 - Highlight any tools, frameworks, or techniques used, and explain how they contributed to the implementation.  
 - Include screenshots, diagrams, or code snippets where relevant to showcase your progress.
@@ -82,13 +86,17 @@ Researching *Little Nightmares* provided valuable insight into common game mecha
 ### Positive Analysis 
 The successful parts of the project included staying on track, completing the mechanics quickly, and ensuring everything worked within a reasonable time frame. I worked hard on the project and explored learning through YouTube tutorials and documentation, which helped me understand the concepts I was learning. As a result, I felt more comfortable with blueprints and was able to resolve issues, such as the box problem mentioned earlier. Additionally, I used my problem-solving skills to tailor the tutorials more specifically to my game. Over time, I became more confident and began working on blueprints independently. 
 
+I feel like I have answered the question quite effectively within the animations and how I went about implementing them in order to make the game space feel more immesersive. This helped add different outcomes each time and draw different emotions out from the players each time as the players could have a different outcome each time. 
+
 - Provide evidence to support your analysis, such as test results, screenshots, or user comments.
 
 ### Negative Analysis  
 There were several areas of the project that didn’t go as planned. I encountered an issue with not having the level design until week 9, which put a strain on me as I had to fix errors that cropped up later. I also struggled to divide my attention between the write-up and the project itself. Learning animations and how to implement them proved to be another challenge. Additionally, I had to make adjustments to the level when implementing the blueprints to ensure they worked properly in the new level, which led to small delays. I didn’t manage to user test my game until week 9, and it wasn’t fully complete due to missing aspects from my group partners. Through this experience, I’ve learned that I need to take on more of a leadership role to ensure everyone completes their tasks on time, giving me enough time for user testing and to address any minor issues without the pressure of time constraints.
 
+I feel like I have answered the question effectively, but also I could've paid more attention to the effect of the environment as well as animations to fit my role a bit more and to make my games a bit more effective.
+
 ### Next Time
-If I were to do a similar project again, I would plan everything out using Figma, as it helped me stay on track throughout the process. I would also prioritize conducting research before starting the project, as I jumped in right after our ideas were discussed, which made me have to work backwards. Additionally, I would make use of more documentation sources beyond just YouTube tutorials to broaden my knowledge and avoid getting stuck in a comfort zone.
+If I were to do a similar project again, I would plan everything out using Figma, as it helped me stay on track throughout the process.I would also look at different academic sources into coding or development as well as animations so I could broaden my knowledge.Additionally, I would make use of more documentation sources beyond just YouTube tutorials to extend my knowledge and avoid getting stuck in a comfort zone.
 
 I would probably use Trello next time round as it would help oragnise and delegate tasks to all of the different memebers in the group. This would make sure everyone sticks to the deadlines and I have the content in time.
 
