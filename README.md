@@ -29,8 +29,10 @@ Little Nightmares is a puzzle-based game where players control a small character
 
 
 ### Academic Sources  
-- Research academic papers, books, or articles that provide theoretical guidance for your project. Include a brief summary of each source.  
-- Describe how the academic research applies to your project and shapes your design and development decisions.
+
+I recently read a book called *Animating Real-Time Game Characters*, and one of the chapters discusses how the environment and space influence design elements, particularly when it comes to animation sets. This insight made me realize that focusing on character movement is crucial in defining the space around them. By understanding how a character moves, designers can better shape the environment to complement and enhance those movements.
+
+I also read *3D Character Animation*, which explores how timing can significantly influence a character's emotion and personality. The book emphasizes that animation plays a crucial role in conveying physical presence within a space, as the speed and pacing of movements can alter the context of a situation. This concept led me to focus on creating a ragdoll animation for the character when killed, as it allows the player's death to be communicated more dramatically and realistically, changing the emotional tone of the moment and adding to the overall experience.
 
 ### Documentation Sources  
 I used in-depth YouTube tutorials to create the game mechanics our group had discussed. I utilized UI tutorials to develop a game menu (How To Create A Main Menu - Unreal Engine 5 Tutorial, 2022). Additionally, I followed tutorials for creating an interactive system, allowing objects to be picked up (How To Pick Up And Drop Items | Hold Items In Hand - Unreal Engine Tutorial, 2021). I also learned how to implement a potion mechanic through another video (Unreal Engine - Ingredient Pickup and Potion Crafting, 2025). By adapting the techniques shown in these videos, I was able to tailor them to meet the specific needs of our project.I also referenced some documentation sources on the unreal engine website.This was helpful as I was able to see peoples discussions and how they broke down the issues they had and how they were solved. This was a more beneficial way of learning sometimes. (How can I change a characters jump height in blueprints? - Development / Character & Animation, 2017)
@@ -56,7 +58,7 @@ Throughout this project, I encountered several small difficulties during playtes
 In the future, I would make sure to pay more attemtion to the blueprints to advoid any slight mistakes and I would also make sure that the physics on objects works correctly rather than leaving it to the last minute. 
 
 
-- If any difficulties remain unresolved, explain the impact on the project and any mitigation strategies used to minimise their effect.  
+
 
 
 ## Outcomes (Suggested Word Count 300) 
@@ -92,8 +94,7 @@ The successful parts of the project included staying on track, completing the me
 There were several areas of the project that didn’t go as planned. I encountered an issue with not having the level design until week 9, which put a strain on me as I had to fix errors that cropped up later. I also struggled to divide my attention between the write-up and the project itself. Learning animations and how to implement them proved to be another challenge. Additionally, I had to make adjustments to the level when implementing the blueprints to ensure they worked properly in the new level, which led to small delays. I didn’t manage to user test my game until week 9, and it wasn’t fully complete due to missing aspects from my group partners. Through this experience, I’ve learned that I need to take on more of a leadership role to ensure everyone completes their tasks on time, giving me enough time for user testing and to address any minor issues without the pressure of time constraints.
 
 ### Next Time
-If I were to do a similar project again, I would plan everything out using Figma, as it helped me stay on track throughout the process. I would also prioritize conducting research before starting the project, as I jumped in right after our ideas were discussed, which made me have to work backwards. Additionally, I would make use of more documentation sources beyond just YouTube tutorials to broaden my knowledge and avoid getting stuck in a comfort zone.
-- Consider any new tools, techniques, or approaches you would explore in future projects to achieve better results.
+If I were to do a similar project again, I would plan everything out using Figma, as it helped me stay on track throughout the process. I would also prioritize conducting research before starting the project, as I jumped in right after our ideas were discussed, which made me have to work backwards. Additionally, I would make use of more documentation sources beyond just YouTube tutorials to broaden my knowledge and avoid getting stuck in a comfort zone.New tools I would consider to use in the future would be some more product management software such as Trello so we can divide tasks to everyone and keep track on the progress of these tasks. 
 
 ## Bibliography  
 
