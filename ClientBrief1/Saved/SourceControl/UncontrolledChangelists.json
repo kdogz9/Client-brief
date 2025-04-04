@@ -1,0 +1,22 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/UI/Recipe/WBP_Recipe.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/MAT_Player_Dress.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Crafting_lv.umap",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Characters/Player_Model_2.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Player_Model_2_initialShadingGroup_BaseColor.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/UI/Recipe/recipe_page_2.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Walk_Fin_anim.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Body.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Plz.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/Plz_PhysicsAsset.uasset",
+				"C:/Users/keish/OneDrive/Documents/Games development/Git Projects/Client-brief/ClientBrief1/Content/Animations/standardSurface4.uasset"
+			]
+		}
+	]
+}
