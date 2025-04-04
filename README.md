@@ -29,8 +29,9 @@ Little Nightmares is a puzzle-based game where players control a small character
 
 
 ### Academic Sources  
-- Research academic papers, books, or articles that provide theoretical guidance for your project. Include a brief summary of each source.  
-- Describe how the academic research applies to your project and shapes your design and development decisions.
+I recently read a book called *Animating Real-Time Game Characters*, and one of the chapters discusses how the environment and space influence design elements, particularly when it comes to animation sets. This insight made me realize that focusing on character movement is crucial in defining the space around them. By understanding how a character moves, designers can better shape the environment to complement and enhance those movements.
+
+I also read *3D Character Animation*, which explores how timing can significantly influence a character's emotion and personality. The book emphasizes that animation plays a crucial role in conveying physical presence within a space, as the speed and pacing of movements can alter the context of a situation. This concept led me to focus on creating a ragdoll animation for the character when killed, as it allows the player's death to be communicated more dramatically and realistically, changing the emotional tone of the moment and adding to the overall experience.
 
 ### Documentation Sources  
 I used in-depth YouTube tutorials to create the game mechanics our group had discussed. I utilized UI tutorials to develop a game menu (How To Create A Main Menu - Unreal Engine 5 Tutorial, 2022). Additionally, I followed tutorials for creating an interactive system, allowing objects to be picked up (How To Pick Up And Drop Items | Hold Items In Hand - Unreal Engine Tutorial, 2021). I also learned how to implement a potion mechanic through another video (Unreal Engine - Ingredient Pickup and Potion Crafting, 2025). By adapting the techniques shown in these videos, I was able to tailor them to meet the specific needs of our project.I also referenced some documentation sources on the unreal engine website.This was helpful as I was able to see peoples discussions and how they broke down the issues they had and how they were solved. This was a more beneficial way of learning sometimes. (How can I change a characters jump height in blueprints? - Development / Character & Animation, 2017)
@@ -47,15 +48,12 @@ I had to explore how to implement animations and create the blueprints for them.
 
 ### Testing
 For user testing, I used a blind approach by uploading the project to itch and asking people to playtest it. I linked a Google form with questions to gather feedback. During testing, several issues were identified, such as the music being too loud, so I added a pause menu that allowed the player to adjust the volume and exit the game. Players were also having trouble with the recipe not disappearing unless they were near it, so I changed it so the recipe would disappear when the player walked away. Additionally, I made the recipe order clearer, as some players were unsure they needed to pick up the ingredients in a specific order. They also found that the AI seemed too similar to the player, but that was due to it not being fully implemented. It has since been changed to a witch. One player mentioned they didn’t know how to interact with the cauldron, so I added a prompt to the cauldron to resolve this.
-- Describe how these issues were addressed. If any issues were not resolved, provide a clear justification for leaving them unaddressed.
 
 ### Technical Difficulties
 Throughout this project, I encountered several small difficulties during playtesting. These issues included the player’s jump being too high, the box flying when pulled, and the menu preventing the player from moving once they entered the level. To resolve these problems, I adjusted the jumping velocity for the player, fixed the axis on the box, and modified the force applied when the player pulled the object. Additionally, I changed the node for the UI from game to UI, allowing the player to move freely within the level.I also had to uncheck a colision box on the camera to stop it from following the player and making the player get stuck. 
 
 In the future, I would make sure to pay more attemtion to the blueprints to advoid any slight mistakes and I would also make sure that the physics on objects works correctly rather than leaving it to the last minute. 
-
-
-- If any difficulties remain unresolved, explain the impact on the project and any mitigation strategies used to minimise their effect.  
+ 
 
 
 ## Outcomes (Suggested Word Count 300) 
@@ -78,9 +76,8 @@ In the future, I would make sure to pay more attemtion to the blueprints to advo
 ## Reflection (Suggested Word Count 500) 
 
 ### Research Effectiveness  
-- Assess the usefulness of the research conducted during the project.  
-- Highlight which sources (games, academic, documentation) had the most significant impact on your work and explain why.  
-- Identify any research gaps or areas where additional information could have improved your project outcomes.
+
+Researching *Little Nightmares* provided valuable insight into common game mechanics, which I could incorporate into my own project. It helped me understand key elements like camera angles and environmental design, as well as influenced the types of puzzles I implemented, such as pulling boxes and collecting items.It also influenced the type of AI we used and how they killed the player by grabbing them with their hand out like how a monster does in little nightmares. Academic sources further guided the animation process, particularly the use of ragdoll physics when the player is killed, creating a unique outcome each time. However, I believe that diving deeper into puzzle design could have added more depth to the game. Additionally, exploring more academic sources related to coding and game theory might have enriched my understanding and implementation of the game's mechanics.
 
 ### Positive Analysis 
 The successful parts of the project included staying on track, completing the mechanics quickly, and ensuring everything worked within a reasonable time frame. I worked hard on the project and explored learning through YouTube tutorials and documentation, which helped me understand the concepts I was learning. As a result, I felt more comfortable with blueprints and was able to resolve issues, such as the box problem mentioned earlier. Additionally, I used my problem-solving skills to tailor the tutorials more specifically to my game. Over time, I became more confident and began working on blueprints independently. 
@@ -92,7 +89,8 @@ There were several areas of the project that didn’t go as planned. I encounter
 
 ### Next Time
 If I were to do a similar project again, I would plan everything out using Figma, as it helped me stay on track throughout the process. I would also prioritize conducting research before starting the project, as I jumped in right after our ideas were discussed, which made me have to work backwards. Additionally, I would make use of more documentation sources beyond just YouTube tutorials to broaden my knowledge and avoid getting stuck in a comfort zone.
-- Consider any new tools, techniques, or approaches you would explore in future projects to achieve better results.
+
+I would probably use Trello next time round as it would help oragnise and delegate tasks to all of the different memebers in the group. This would make sure everyone sticks to the deadlines and I have the content in time.
 
 ## Bibliography  
 
