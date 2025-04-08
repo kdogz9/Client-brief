@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/university work/Little Nightmares 2 UNI PROJECT CLIENT/unreal/Client-brief/Client-brief/ClientBrief1/Content/Crafting_lv.umap",
+				"D:/university work/Little Nightmares 2 UNI PROJECT CLIENT/unreal/Client-brief/Client-brief/ClientBrief1/Content/CUTSCENE/Crafting_showcase.uasset",
+				"D:/university work/Little Nightmares 2 UNI PROJECT CLIENT/unreal/Client-brief/Client-brief/ClientBrief1/Content/CUTSCENE/wrong_way.uasset",
+				"D:/university work/Little Nightmares 2 UNI PROJECT CLIENT/unreal/Client-brief/Client-brief/ClientBrief1/Content/wrong_way.uasset",
+				"D:/university work/Little Nightmares 2 UNI PROJECT CLIENT/unreal/Client-brief/Client-brief/ClientBrief1/Content/CUTSCENE/vents.uasset"
+			]
+		}
+	]
+}
