@@ -19,7 +19,7 @@ I may run into some issues with working with the animations as I have never work
 
 I copied the game mechanics that were discussed from the second week of the project and broke it down into simple mechanics so I knew what I needed to code. This made it easier to find what code I needed to implement throughout the project. I then highlighted each mechanic so I knew what needed to be done and what I had finished so I could keep on track. Breaking down the mechanics also helped me find the correct documentation I needed to be able to get help with the project. 
 
-<img src="Client brief.png">
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\Client brief.png">
 Figure 1. (Figma, s.d.), Mechanic Breakdown.
 
 ### Game Sources  (92)
@@ -42,82 +42,82 @@ I used in-depth YouTube tutorials to create the game mechanics our group had dis
 
 The development process for the project began with coding a crouch mechanic, followed by creating a simple pick-up and put-down system (How To Pick Up And Drop Items | Hold Items In Hand - Unreal Engine Tutorial, 2021) for the potion once the player makes it. I used a cube as a placeholder for this system.
 
-![crouch blueprint](image.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image.png">
 
 
 Figure 2. [BlueprintUE](https://blueprintue.com/render/n0rvq9nz/), Crouching implementation.
 
-![Pick up and drop](image-12.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-12.png">
 
 Figure 3. [BlueprintUE](https://blueprintue.com/render/4183zttv/), Pick up and put down implementation.
 
  I then worked on a pull and push system to allow the player to move boxes around for puzzles and to reach higher platforms, using force and velocity. This was a key milestone as it involved important coding concepts that were essential for me to learn. 
  
- ![pull blueprint](image-1.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-1.png">
  Figure 4. [BlueprintUE](https://blueprintue.com/render/k_78x6s9/), Pull implementation in the player blueprint.
 
-![Pull object blueprint](image-11.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-11.png">
 
  Figure 5. [BlueprintUE](https://blueprintue.com/render/a5ptvy0q/), Pull implementation on the object itself. 
 
  Next, I implemented trigger boxes (How To Use Trigger Box - Unreal Engine 5 Tutorial, 2024) to make objects fall (how to make items fall when the player enters a zone unreal engine 5 - Google Search, s.d.), which also became a significant learning point as I grew more comfortable using them throughout the process.
 
- ![Trigger box blueprint](image-2.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-2.png">
 
   Figure 6. [BlueprintUE](https://blueprintue.com/render/ydz6hjrb/), Trigger box implementation.
 
 I added a kill tag to items and set the death (A destroy actor and respawn tutorial., 2022) mechanic on the player instead of the objects, which helped avoid repeating code and creating blueprints for each object that would kill the player.
 
-![Death system](image-3.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-3.png">
 
 Figure 7. [BlueprintUE](https://blueprintue.com/render/cxr7iml9/), Death system implementation.
 
  I made the player have a rag doll animation when they were killed. This was influenced by my academic research (Clark, s.d.) which led me to focus on creating a ragdoll animation for the character when killed, as it allows the player's death to be communicated more dramatically and realistically, changing the emotional tone of the moment and adding to the overall experience.
 
- ![Rag doll death](image-4.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-4.png">
 
  Figure 8. Rag doll animation when player is killed. 
   
 
 I also coded a flip-flop mechanic to make an oven turn on and off when the player interacted with it, but this feature didn’t make it to the final project as it didn’t fit with the overall design. 
 
-![Flip flop](image-22.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-22.png">
 
 Figure 9. [BlueprintUE](https://blueprintue.com/render/v622nwbk/) Flip flop implementation.
 
 At this stage, I received animations and worked on implementing them so that certain animations would trigger when the player interacted with objects, such as pulling or picking them up (Unreal Engine - Ingredient Pickup and Potion Crafting, 2025). This was another key learning point for me, as I had never worked with animations before.
 
-![Animations for player](image-5.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-5.png">
 Figure 10.Player animation state machine 
 
 
 I also added music (Unreal Engine - Sound and Music In 6 Minutes, 2021) and prompt text (How To Display A Prompt Above An Item In-Game - Unreal Engine 4/5 Tutorial, 2022) that appears above interactable objects to make it more intuitive for players, so they would know they could interact with them.
 
-![Interaction prompt](image-6.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-6.png">
 
 Figure 11. [BlueprintUE](https://blueprintue.com/render/qlxjbqiy/), Interactive prompt implementation.
 
 Afterward, I created a main menu scene (How To Create A Main Menu - Unreal Engine 5 Tutorial, 2022) and later added a pause menu (How To Create A Pause Menu - Unreal Engine 5 Tutorial, 2022) based on user testing feedback, allowing the player to quit the game or adjust the music volume, which was a major concern.This was an easy task to pick up, and I feel more comfortable with UI creation now. 
 
-![Main menu](image-7.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-7.png">
 
 Figure 12. [BlueprintUE](https://blueprintue.com/render/jqjmtipm/), Main menu implementation.
 
-![Pause menu](image-8.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-8.png">
 
 Figure 13. [BlueprintUE](https://blueprintue.com/render/k801pugu/), Pause menu implementation. 
 
-![Pause menu player](image-9.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-9.png">
 
 Figure 14. [BlueprintUE](https://blueprintue.com/render/55497dmx/), Pause menu player implementation.This allows the player to press "P" to trigger the pause menu. 
 
 I then moved on to developing an inventory system that allowed the player to pick up items in a specific order to make the potion (Unreal Engine - Ingredient Pickup and Potion Crafting, 2025). When the order was followed correctly, the player would receive a potion from the cauldron.  
 
-![ingredient system](image-13.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-13.png">
 
 Figure 15. [BlueprintUE](https://blueprintue.com/render/-l14_d_8/) Inventory system for the player to be able to pick up the ingredients.
 
-![Cauldron system](image-14.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-14.png">
 
 Figure 16. [BlueprintUE](https://blueprintue.com/render/55ra9vgu/) Cauldron system, checking if the player has the right order of ingredients and giving them a potion or restarting the level if its not working 
 
@@ -125,38 +125,38 @@ Additionally, I implemented a wrong recipe function that respawns the player if 
 
 I also created a book that the player could pick up to see the recipe (UNREAL ENGINE 5 HOW TO PICKUP AND READ NOTES TUTORIAL, 2023) and understand the correct order, but I later adjusted this so that it would disappear when the player moved away, based on user testing feedback.
 
-![Recipe](image-15.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-15.png">
 
 Figure 17. [BlueprintUE](https://blueprintue.com/render/ccb8voun/) Pick up and put down when moved away recipe system. 
 
 I then implemented the potion "melting" the vent to allow the player to exit, using a destroy object blueprint. Although I initially planned to create a cutscene for this effect, there wasnt enough time to implement this.
 
-![Vent melting](image-16.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-16.png">
  
 Figure 18. [BlueprintUE](https://blueprintue.com/render/qx-ayi8e/) Vent melting implementation.
 
 Toward the end of the project, I worked on cutscenes (How To Make & Trigger A Simple Cutscene | Unreal Engine 5 Tutorial, 2024), which was rewarding as it allowed me to experiment with something new and use my knowledge to add a spawn location afterward.Although this effect stayed in the test level only, I still used the code for the trigger boxes.
 
  
-![Cut scene](image-17.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-17.png">
 
 Figure 19. [BlueprintUE](https://blueprintue.com/render/vgzuxgcg/) Cut scene implementation. This was used for all four cut scenes, with the scene just changing for each different one. 
 
 I also added a witch AI system that checks for the player and kills them upon detection, which involved working on animations, particularly for the witch’s grab animation when it kills the player. 
 
-![Looking for player](image-18.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-18.png">
   
 Figure 20. [BlueprintUE](https://blueprintue.com/render/t7ycpu2u/) Witch AI checking for the player location and following them. 
 
-![Random location](image-19.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-19.png">
 
 Figure 21. [BlueprintUE](https://blueprintue.com/render/h7knm8lf/) Witch AI movement if it cant find the player.This is so the witch is still moving around the scene. 
 
-![Witch AI](image-20.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-20.png">
 
 Figure 22. [BlueprintUE](https://blueprintue.com/render/hn4zai_z/) Witch AI implementation.
 
-![witch grabbing](image-21.png)
+<img src="C:\Users\keish\OneDrive\Documents\Games development\Git Projects\Client-brief\image-21.png">
 
 Figure 23. [BlueprintUE](https://blueprintue.com/render/bgmc0lkz/) Witch grabbing animation blueprint, needed for when she kills the player. 
 
